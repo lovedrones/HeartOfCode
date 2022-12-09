@@ -1,3 +1,5 @@
+
+
 body {
     background-image: url('images/map10.png');
 }
@@ -9,9 +11,15 @@ header {
     width: 400px;
     animation: fadein 1s;
 }
-
+#quest {
+    color: #c2ac21;
+    width: 300px;
+    height: 100px;
+   
+    font-size: 16px;
+}
 #dialogbox {
-    float: right;
+float: right;
 background-image: linear-gradient(rgba(248, 81, 9, 0.5), rgb(44, 2, 2));
 border: groove 8px #ababab;
 height: 225px;
@@ -49,7 +57,6 @@ border: groove 8px #ababab;
 margin-top: 350px;
 height: 225px;
 width: 500px;
-position: fixed;
 animation: fadein 10s;
 }
 
@@ -76,8 +83,8 @@ animation: fadein 10s;
     padding-bottom: 15px;
 }
 #playerbox img {
+    margin-left: -20px;
     border-right: groove 4px #ababab; 
-    height: 216px;
+    height: 210px;
     width: 173px;
-    margin-left: 0px;
 }

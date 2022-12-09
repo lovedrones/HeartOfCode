@@ -1,5 +1,9 @@
+const startButton = document.querySelector('.starter')
+const hid = document.getElementById('hidden-question')
+const nextButton = document.getElementById('next-btn')
+
+
 function startGame() {
-    startButton.classList.add('hide');
   var typed1 = new Typed('#quest', {
         // Waits 1000ms after typing "First"
         strings: [ 
@@ -22,3 +26,11 @@ function startGame() {
        });
        
 };
+
+function next() {
+  hid.classList.remove('hide');
+  shuffledQuestions = questions.sort(() => Math.random() - .5);
+  currentQuestionIndex = 0;
+  setNextQuestion();
+  };
+
