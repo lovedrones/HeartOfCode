@@ -1,0 +1,83 @@
+body {
+    background-image: url('images/map10.png');
+}
+header {
+    font-size: 70px;
+    color:  #fcea76;
+    font-family: cursive;
+    margin-bottom: -100px;
+    width: 400px;
+    animation: fadein 1s;
+}
+
+#dialogbox {
+    float: right;
+background-image: linear-gradient(rgba(248, 81, 9, 0.5), rgb(44, 2, 2));
+border: groove 8px #ababab;
+height: 225px;
+width: 550px;
+animation: fadein 3s;
+}
+
+#dialogbox h2 {
+    font-size: 1.5rem;
+    width: 300px;
+    height: 30px;
+    border-bottom: groove 4px #ababab; 
+    color: #c2ac21;
+    margin-bottom: 15px;
+    margin-top: -1px;
+    background-color: rgba(44, 2, 2,0.5);
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+#dialogbox img {
+    border-left: groove 4px #ababab; 
+    height: 210px;
+    width: 175px;
+    position: absolute;
+    top: 19px;
+    right: 8px;
+}
+
+#playerbox {
+    
+background-image: linear-gradient(rgba(43, 64, 250, 0.5), rgb(0, 4, 37));
+border: groove 8px #ababab;
+margin-top: 350px;
+height: 225px;
+width: 500px;
+position: fixed;
+animation: fadein 10s;
+}
+
+#playerbox p {
+    float: right;
+    padding-top: 100px;
+    padding-right: 30px;
+    color: #c2ac21;
+    font-size: 16px;
+}
+#playerbox h2 {
+    font-size: 1.5rem;
+    float:right;
+    width: 250px;
+    height: 30px;
+    border-bottom: groove 4px #ababab; 
+    color: #c2ac21;
+    margin-bottom: -100px;
+    margin-top: -1px;
+    background-color: rgba(0, 4, 37, 0.5);
+    padding-top: 15px;
+    padding-right: -130px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+#playerbox img {
+    border-right: groove 4px #ababab; 
+    height: 216px;
+    width: 173px;
+    margin-left: 0px;
+}

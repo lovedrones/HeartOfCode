@@ -7,6 +7,7 @@ body {
   background-position: center;
 
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -26,7 +27,6 @@ div.starter{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
-  cursor: pointer;
   
 }
 
@@ -83,10 +83,10 @@ align-items: center;
 
 .hidden {
     display: none;
-} 
+}
 
 .btn {
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding: 2rem 0;
     width: 30rem;
     text-align:center;
@@ -99,7 +99,7 @@ align-items: center;
 
 .btn:hover {
     cursor: pointer;
-    background: rgb(21, 124, 249);
+    background: rgb(49, 141, 252);
     box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
     transition: transform 150ms;
     transform: scale(1.03);
@@ -121,12 +121,26 @@ align-items: center;
 
 }
 
-fa-crown {
-    font-size: 2.5rem; 
-    margin-left: 1rem;
+#musicbox {
+    margin-top: 5rem;
 }
 
-/* End Page CSS */
+.fa {
+    font-size: 25px;
+    margin-right: 5px;
+  }
+  
+.fa-crown {
+    font-size: 2.5rem; 
+}
+
+.fa-music {
+    color: rgb(240, 229, 159);
+    font-size: 20px;
+}
+
+
+
 
 .end-form-container {
     width: 100%;
@@ -136,7 +150,7 @@ fa-crown {
     max-width: 30rem;
 }
 
-input { 
+/* input { 
     margin-bottom: 1rem;
     width: 20rem;
     padding: 1.5rem;
@@ -147,7 +161,7 @@ input {
 
 input::placeholder {
     color: #aaa;
-}
+} */
 
 #username {
     margin-bottom:3rem;
@@ -168,7 +182,7 @@ input::placeholder {
 .fa-home {
     margin-left: 1rem;
     font-size: 2rem;
-    color: rgb(28, 26, 26);
+    color: #fff;
 }
 
 @keyframes fadein {
@@ -180,7 +194,7 @@ input::placeholder {
      100% { opacity: 1; }
    }
 
-   @-webkit-keyframes glow {
+@keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6b800, 0 0 40px #e6b800, 0 0 50px #e6b800, 0 0 60px #e6b800, 0 0 70px #e6b800;
     }
