@@ -16,6 +16,10 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
+a {
+    text-decoration: none;
+}
+
 div.starter{
     animation: fadein 5s;
     position: fixed;
@@ -61,6 +65,7 @@ h2 {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+    background-color:  rgba(62, 65, 1, 0.4);
 }
 
 .flex-column {

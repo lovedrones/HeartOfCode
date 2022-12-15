@@ -2,6 +2,10 @@ body {
     color: #fff;
 }
 
+.container {
+    background-color:  rgba(47, 48, 29, 0.4);
+}
+
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -35,10 +39,19 @@ body {
      background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%)
 }
 
+ #question {
+font-size: 3rem;
+}
+
 /* Heads up display */
 #hud {
   display: flex;  
   justify-content: space-between;
+}
+
+.hud-item img {
+    border: groove rgb(250, 247, 63)  3px;
+    size: 75%;
 }
 
 

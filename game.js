@@ -13,36 +13,36 @@ let availableQuestions = []
 
 let questions = [
     {
-       question: 'What is 2 + 2?',
-       choice1: '4',
-       choice2: '2',
-       choice3: '21',
-       choice4: '17',
-       answer: 1,
-    },
-    {
-       question: 'What City am I moving to in 2023',
-       choice1: 'Shanghai',
-       choice2: 'Chicago',
-       choice3: 'Bangkok',
-       choice4: 'New York CITY!!',
-       answer: 4,
-    },
-    {
-       question: 'Whats my name, ho !?',
-       choice1: 'jacob',
-       choice2: 'john',
-       choice3: 'Juan MF LO',
-       choice4: ' Schmitty',
+       question: 'Inside which HTML element do we put the JavaScript?',
+       choice1: '< javascript >',
+       choice2: '< scripting >',
+       choice3: '< script >',
+       choice4: '< js >',
        answer: 3,
     },
     {
-       question: 'greatst rapper of all time?',
-       choice1: 'Tupac',
-       choice2: '2pac',
-       choice3: 'Mr. Shakur',
-       choice4: 'All Thee Above',
+       question: 'How do you write "Hello World" in an alert box?',
+       choice1: '  msgBox("Hello World"); ',
+       choice2: ' msg("Hello World"); ',
+       choice3: ' alertBox("Hello World"); ',
+       choice4: ' alert("Hello World"); ',
        answer: 4,
+    },
+    {
+       question: 'What is the correct way to write a JavaScript array?',
+       choice1: 'var colors =["red", "green", "blue"]',
+       choice2: 'var colors ="red", "green", "blue"',
+       choice3: 'var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")',
+       choice4: ' var colors = (1:"red", 2:"green",3:"blue")',
+       answer: 1,
+    },
+    {
+       question: 'Which event occurs when the user clicks on an HTML element?',
+       choice1: 'onmouseover',
+       choice2: 'onchange',
+       choice3: 'onclick',
+       choice4: 'onmouseclick',
+       answer: 3,
     }
 ]
 

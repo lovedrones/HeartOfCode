@@ -11,14 +11,19 @@ header {
     width: 400px;
     animation: fadein 1s;
 }
+
+.typed-strings {
+color: #c2ac21;
+}
+
 #quest {
     color: #c2ac21;
     width: 300px;
     height: 100px;
-   
     font-size: 16px;
 }
 #dialogbox {
+    position: relative;
 float: right;
 background-image: linear-gradient(rgba(248, 81, 9, 0.5), rgb(44, 2, 2));
 border: groove 8px #ababab;
@@ -46,12 +51,13 @@ animation: fadein 3s;
     height: 210px;
     width: 175px;
     position: absolute;
-    top: 19px;
-    right: 8px;
+    top: 0%;
+    right: 0%;
+    overflow: auto;
 }
 
 #playerbox {
-    
+    position: relative;
 background-image: linear-gradient(rgba(43, 64, 250, 0.5), rgb(0, 4, 37));
 border: groove 8px #ababab;
 margin-top: 350px;
@@ -87,4 +93,83 @@ animation: fadein 10s;
     border-right: groove 4px #ababab; 
     height: 210px;
     width: 173px;
+    overflow: auto;
+}
+
+.music-container {
+    margin-left: 50%;
+}
+
+.next {
+    float: right;
+    margin-top: -30rem;
+    margin-right: 5rem;
+    height: 4rem;
+    width: 5rem;
+    background:rgb(18, 92, 255) ;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(249, 223, 56) ;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.next:hover {
+    cursor: pointer;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6b800, 0 0 40px #e6b800, 0 0 50px #e6b800, 0 0 60px #e6b800, 0 0 70px #e6b800;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+@media screen and (max-width: 375px) {
+    header {
+        font-size: 60px;
+        margin-bottom: 5px;
+        width: 370px;
+    }
+    #quest {
+        width: 175px;
+          font-size: 10px;
+      }
+   #dialogbox{
+    height: 175px;
+    width: 350px;
+
+   } 
+
+   #dialogbox img {
+    height: 160px;
+    width: 135px;
+   }
+   #dialogbox h2 {
+    font-size: 1rem;
+   }
+
+   #playerbox {
+   height: 175px;
+   width: 350px;
+}
+
+#playerbox img {
+    height: 160px;
+    width: 135px;
+}
+#playerbox h2{
+    font-size: 1rem;
+    width: 200px;
+
+}
+#playerbox p {
+    float: right;
+    padding-top: 50px;
+    padding-right: 30px;
+    font-size: 1rem;
+}
 }
